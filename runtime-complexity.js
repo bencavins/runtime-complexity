@@ -31,9 +31,9 @@ function do_something_else(n) {
     return op_count
 }
 
-console.log(`n=10, op_count=${do_something_else(10)}`)      // 100
-console.log(`n=100, op_count=${do_something_else(100)}`)    // 10000
-console.log(`n=1000, op_count=${do_something_else(1000)}`)  // 1000000
+// console.log(`n=10, op_count=${do_something_else(10)}`)      // 100
+// console.log(`n=100, op_count=${do_something_else(100)}`)    // 10000
+// console.log(`n=1000, op_count=${do_something_else(1000)}`)  // 1000000
 /* 
 Operation count goes up faster and faster as n increases. (quadratic)
 O(n**2) aka O(n^2)
@@ -48,9 +48,9 @@ function do_something_simple(n) {
     return op_count
 }
 
-console.log(`n=10, op_count=${do_something_simple(10)}`)      // 1
-console.log(`n=100, op_count=${do_something_simple(100)}`)    // 1
-console.log(`n=1000, op_count=${do_something_simple(1000)}`)  // 1
+// console.log(`n=10, op_count=${do_something_simple(10)}`)      // 1
+// console.log(`n=100, op_count=${do_something_simple(100)}`)    // 1
+// console.log(`n=1000, op_count=${do_something_simple(1000)}`)  // 1
 /* 
 The number of operations doesn't change as on goes up.
 O(1) aka constant time 
